@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "name": "Pattern Crafter",
+      "description": "Explored core Java design patterns to improve modularity, maintainability, and onboarding velocity for future features.",
+      "tags": ["Java", "Design Patterns", "JUnit", "Build Automation"],
+      "links": {}
+    },
+    {
+      "name": "Inventory Management System",
+      "description": "Developed Spring Boot services and MySQL persistence to streamline supplier, inventory, and purchase order workflows with 20% faster data operations.",
+      "tags": ["Spring Boot", "Hibernate", "MySQL", "REST APIs"],
+      "links": {}
+    },
+    {
+      "name": "Employee Payroll Management System",
+      "description": "Automated payroll calculation, tax deductions, and reporting with Thymeleaf front-ends and PostgreSQL integration, cutting manual effort by 25%.",
+      "tags": ["Spring Boot", "Thymeleaf", "PostgreSQL", "Automation"],
+      "links": {}
+    },
+    {
+      "name": "Web Proxy Manager",
+      "description": "Implemented an HTTP proxy server tested on Google Cloud to manage concurrent client connections with resilience and scale.",
+      "tags": ["Java", "HTTP", "Cloud", "Networking"],
+      "links": {}
+    }
+  ]
+}
+

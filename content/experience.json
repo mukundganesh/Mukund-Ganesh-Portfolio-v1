@@ -1,0 +1,76 @@
+{
+  "experiences": [
+    {
+      "company": "American Express",
+      "role": "Engineer II",
+      "start": "10/2024",
+      "end": "Present",
+      "location": "Phoenix, USA",
+      "summary": "Owning ingestion and microservices capabilities for high-volume financial data platforms.",
+      "achievements": [
+        "Delivered Java, Kafka, and Spark services that cut data ingestion time by 30% while scaling to enterprise volumes.",
+        "Introduced pre-processing validation to streaming pipelines, improving data fidelity across batch and realtime ingestion.",
+        "Designed Spring Boot and gRPC microservices backed by Oracle SQL and Cassandra to reduce API latency by 40%.",
+        "Built exception handling and logging utilities that decreased critical incident resolution time by 20%.",
+        "Expanded automated test coverage to 80% and stabilized CI/CD pipelines to sustain 96% uptime and 25% faster releases."
+      ]
+    },
+    {
+      "company": "Guidepoint",
+      "role": "Artificial Intelligence Intern",
+      "start": "10/2023",
+      "end": "12/2023",
+      "location": "Remote, USA",
+      "summary": "Optimized semantic search infrastructure and deployment workflows for expert intelligence products.",
+      "achievements": [
+        "Benchmarked 10+ sentence transformer models to boost search relevance by 15% while meeting resource constraints.",
+        "Implemented RediSearch backed services that improved semantic retrieval latency by 5%.",
+        "Shipped Flask and Gunicorn APIs with 25% faster responses and comprehensive suites of 150+ automated tests.",
+        "Streamlined Azure-based CI/CD pipelines to cut deployment time by 30%."
+      ]
+    },
+    {
+      "company": "UMass Boston",
+      "role": "Software Development Engineer",
+      "start": "09/2022",
+      "end": "09/2023",
+      "location": "Boston, MA",
+      "summary": "Built academic portals and scheduling tools supporting the College of Science community.",
+      "achievements": [
+        "Delivered OATS and CS Portal platforms with Java, Spring Boot, SQL, and HTML/CSS to centralize student services.",
+        "Raised user satisfaction by 30% through responsive UI, resource consolidation, and accessibility improvements.",
+        "Increased platform adoption by 40% by streamlining scheduling workflows and delivering intuitive interfaces.",
+        "Enhanced uptime by 25% via cloud deployments, Git-driven release hygiene, and resilient infrastructure."
+      ]
+    },
+    {
+      "company": "Spyhere Software Solutions",
+      "role": "Software Engineer",
+      "start": "05/2021",
+      "end": "06/2022",
+      "location": "Remote, India",
+      "summary": "Scaled fintech microservices for the Modern Banking Platform with a focus on reliability and speed.",
+      "achievements": [
+        "Improved customer satisfaction by 25% through Java and Spring Boot enhancements to the Modern Banking Platform.",
+        "Authored REST APIs and Maven-backed services that lifted system performance by 20% and streamlined integrations.",
+        "Established Jenkins CI/CD pipelines to reduce manual deployment effort by 50% and ship features 30% faster.",
+        "Resolved 200+ SonarQube issues to uphold code quality and maintainability."
+      ]
+    },
+    {
+      "company": "Spyhere Software Solutions",
+      "role": "Software Engineer Intern",
+      "start": "09/2020",
+      "end": "05/2021",
+      "location": "Remote, India",
+      "summary": "Delivered risk analytics services and automation for wealth management clients.",
+      "achievements": [
+        "Built Java and Spring Boot APIs that reduced asset risk scoring time by 6% and improved portfolio accuracy.",
+        "Designed cash flow optimization features that improved rebalancing performance by 10%.",
+        "Containerized services with Docker and Kubernetes to ensure scalable, reliable deployments.",
+        "Automated batch processes and PostgreSQL updates with cross-functional teams to elevate data freshness."
+      ]
+    }
+  ]
+}
+

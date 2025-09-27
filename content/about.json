@@ -1,0 +1,43 @@
+{
+  "name": "Mukund Sai Ganesh Konkepudi",
+  "role": "Engineer II | Backend & Data Systems",
+  "location": "Phoenix, Arizona, USA",
+  "heroHeadline": "Building resilient data platforms and AI-powered products that move metrics in production.",
+  "summary": "Software engineer with 4+ years delivering scalable services across fintech, AI, and academic platforms using Java, Python, Spring Boot, and cloud-native tooling.",
+  "pronunciation": "moo-kund sai guh-nesh kohn-kay-poo-dee",
+  "availability": "Open to backend, data platform, and AI engineering collaborations in 2025.",
+  "image": "/hero-portrait.png",
+  "imageAlt": "Mukund Sai Ganesh Konkepudi wearing a grey suit and navy tie on a charcoal background",
+  "links": [
+    {
+      "label": "Email",
+      "href": "mailto:mukund.ganesh09@gmail.com"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/mukund-ganesh"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/mukundganesh"
+    }
+  ],
+  "narrative": [
+    "I lead backend and data engineering initiatives that keep customer-facing systems reliable, low-latency, and insight driven. My experience spans fintech platforms, AI-powered search, and academic portals serving thousands of users.",
+    "Across American Express and Guidepoint, I have implemented streaming data pipelines, microservices, and search infrastructure that cut latency, improved data fidelity, and accelerated releases through disciplined testing and automation.",
+    "I enjoy pairing with cross-functional partners to translate requirements into measurable outcomes, mentoring teams on engineering rigor, and refining operational excellence through observability, CI/CD, and cloud-native deployments."
+  ],
+  "heroActions": {
+    "primary": {
+      "label": "View Projects",
+      "href": "#projects"
+    },
+    "secondary": {
+      "label": "Get in touch",
+      "href": "#contact"
+    }
+  }
+}
+
+
+

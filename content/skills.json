@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "title": "Backend & Services",
+      "items": [
+        "Java",
+        "Python",
+        "Spring Boot",
+        "Spring MVC",
+        "gRPC",
+        "REST APIs",
+        "Kafka",
+        "Spark"
+      ]
+    },
+    {
+      "title": "Data Platforms",
+      "items": [
+        "Oracle SQL",
+        "MySQL",
+        "Cassandra",
+        "PostgreSQL",
+        "Elasticsearch",
+        "RediSearch",
+        "Hive",
+        "Data Modeling"
+      ]
+    },
+    {
+      "title": "Cloud & DevOps",
+      "items": [
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "CI/CD",
+        "Git",
+        "Maven",
+        "Linux"
+      ]
+    },
+    {
+      "title": "Quality & Collaboration",
+      "items": [
+        "Unit Testing",
+        "Integration Testing",
+        "SonarQube",
+        "JIRA",
+        "Agile Delivery",
+        "System Observability",
+        "Technical Mentorship"
+      ]
+    }
+  ]
+}
+

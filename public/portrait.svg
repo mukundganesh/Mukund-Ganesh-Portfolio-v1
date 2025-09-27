@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated portrait</title>
+  <desc id="desc">Abstract illustration representing Mukund Sai Ganesh Konkepudi</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9b42" />
+      <stop offset="100%" stop-color="#ffd369" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="360" rx="64" fill="#1a1815" />
+  <circle cx="180" cy="150" r="90" fill="url(#bg)" opacity="0.9" />
+  <ellipse cx="180" cy="280" rx="120" ry="90" fill="#241f1a" />
+  <circle cx="150" cy="135" r="14" fill="#1a1815" />
+  <circle cx="210" cy="135" r="14" fill="#1a1815" />
+  <path d="M140 190c14 24 46 36 80 0" fill="none" stroke="#1a1815" stroke-width="8" stroke-linecap="round" />
+</svg>
+
