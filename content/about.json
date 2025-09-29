@@ -1,13 +1,13 @@
 {
-  "name": "Mukund Sai Ganesh Konkepudi",
+  "name": "Mukund Konkepudi",
   "role": "Engineer II | Backend & Data Systems",
   "location": "Phoenix, Arizona, USA",
   "heroHeadline": "Building resilient data platforms and AI-powered products that move metrics in production.",
   "summary": "Software engineer with 4+ years delivering scalable services across fintech, AI, and academic platforms using Java, Python, Spring Boot, and cloud-native tooling.",
-  "pronunciation": "moo-kund sai guh-nesh kohn-kay-poo-dee",
+  "pronunciation": "moo-kund kohn-kay-poo-dee",
   "availability": "Open to backend, data platform, and AI engineering collaborations in 2025.",
   "image": "/hero-portrait.png",
-  "imageAlt": "Mukund Sai Ganesh Konkepudi wearing a grey suit and navy tie on a charcoal background",
+  "imageAlt": "Mukund Konkepudi wearing a grey suit and navy tie on a charcoal background",
   "links": [
     {
       "label": "Email",
@@ -38,6 +38,9 @@
     }
   }
 }
+
+
+
 
 
 
