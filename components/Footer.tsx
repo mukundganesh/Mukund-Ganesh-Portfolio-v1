@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="section-px border-t border-white/5 bg-page/90 py-10">
       <div className="container-max flex flex-col gap-6 text-sm text-textMuted/70 sm:flex-row sm:items-center sm:justify-between">
         <p>
-          © {new Date().getFullYear()} Mukund Sai Ganesh Konkepudi. Crafted with Next.js, Tailwind, and a bit of motion.
+          &copy; {new Date().getFullYear()} Mukund Sai Ganesh Konkepudi. Crafted with Next.js, Tailwind, and a bit of motion.
         </p>
         <div className="flex items-center gap-4">
           <a
@@ -27,6 +27,3 @@ export function Footer() {
     </footer>
   );
 }
-
-
-

@@ -29,15 +29,15 @@ a:focus-visible {
 }
 
 .section-px {
-  @apply px-6 sm:px-8 lg:px-12;
+  @apply px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-24;
 }
 
 .section-py {
-  @apply py-16 sm:py-20 lg:py-24;
+  @apply py-16 sm:py-20 lg:py-24 xl:py-28 2xl:py-32;
 }
 
 .container-max {
-  @apply mx-auto w-full max-w-5xl;
+  @apply mx-auto w-full max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
 }
 
 .focus-ring {
@@ -53,4 +53,3 @@ a:focus-visible {
     scroll-behavior: auto;
   }
 }
-

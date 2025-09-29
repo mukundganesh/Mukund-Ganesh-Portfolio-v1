@@ -12,22 +12,22 @@ export function Projects({ projects }: { projects: ProjectsContent }) {
       aria-labelledby="projects-title"
       className="section-px section-py border-t border-white/5 bg-surface/80"
     >
-      <div className="container-max space-y-12">
+      <div className="container-max space-y-12 xl:space-y-16">
         <SectionHeading
           eyebrow="03. Projects"
           title="Selected work"
           description="Product experiments and shipped features that combine motion, systems thinking, and measurable outcomes."
         />
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-10">
           {projects.projects.map((project, index) => (
             <Reveal
               key={project.name}
               delay={index * 0.08}
-              className="group flex h-full flex-col justify-between rounded-3xl border border-white/5 bg-page/60 p-6 shadow-xl shadow-black/20 transition-transform hover:-translate-y-1"
+              className="group flex h-full flex-col justify-between rounded-3xl border border-white/5 bg-page/60 p-6 shadow-xl shadow-black/20 transition-transform hover:-translate-y-1 xl:p-8"
             >
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold text-textPrimary">{project.name}</h3>
-                <p className="text-sm text-textMuted">{project.description}</p>
+                <h3 className="text-xl font-semibold text-textPrimary xl:text-2xl">{project.name}</h3>
+                <p className="text-sm text-textMuted xl:text-base">{project.description}</p>
                 <ul className="flex flex-wrap gap-2 text-xs uppercase tracking-[0.15em] text-textMuted/80">
                   {project.tags.map((tag) => (
                     <li key={tag} className="rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-accent">
@@ -36,7 +36,7 @@ export function Projects({ projects }: { projects: ProjectsContent }) {
                   ))}
                 </ul>
               </div>
-              <div className="mt-6 flex items-center gap-4 text-sm">
+              <div className="mt-6 flex flex-wrap items-center gap-4 text-sm xl:text-base">
                 {project.links.live ? (
                   <a
                     href={project.links.live}
@@ -61,4 +61,3 @@ export function Projects({ projects }: { projects: ProjectsContent }) {
     </section>
   );
 }
-

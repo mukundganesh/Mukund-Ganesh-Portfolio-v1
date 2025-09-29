@@ -18,26 +18,26 @@ export function Experience({
       aria-labelledby="experience-title"
       className="section-px section-py border-t border-white/5"
     >
-      <div className="container-max space-y-12">
+      <div className="container-max space-y-12 xl:space-y-16">
         <SectionHeading
           eyebrow="02. Experience"
           title="End-to-end ownership from pitch to production"
           description="I deliver ambitious features with measurable impact, pairing motion design with robust engineering practices."
         />
-        <div className="grid gap-12 lg:grid-cols-[3fr,2fr]">
-          <ul className="space-y-8">
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,3fr) minmax(0,2fr)] xl:grid-cols-[minmax(0,2.4fr) minmax(0,1fr)] 2xl:gap-16">
+          <ul className="space-y-8 xl:space-y-10">
             {experience.experiences.map((item, index) => (
-              <Reveal key={`${item.company}-${item.role}-${item.start}`} delay={index * 0.08} className="relative rounded-3xl border border-white/5 bg-surface/80 p-6 shadow-lg shadow-black/10">
-                <div className="flex items-center justify-between gap-3 text-sm text-textMuted">
+              <Reveal key={`${item.company}-${item.role}-${item.start}`} delay={index * 0.08} className="relative rounded-3xl border border-white/5 bg-surface/80 p-6 shadow-lg shadow-black/10 xl:p-8">
+                <div className="flex items-center justify-between gap-3 text-sm text-textMuted xl:text-base">
                   <span className="font-semibold text-textPrimary">{item.company}</span>
                   <span>
                     {item.start} — {item.end}
                   </span>
                 </div>
-                <h3 className="mt-2 text-lg font-semibold text-textPrimary">{item.role}</h3>
-                <p className="text-sm text-textMuted/80">{item.location}</p>
-                <p className="mt-4 text-sm text-textMuted">{item.summary}</p>
-                <ul className="mt-4 space-y-3 text-sm text-textMuted/90">
+                <h3 className="mt-2 text-lg font-semibold text-textPrimary xl:text-xl">{item.role}</h3>
+                <p className="text-sm text-textMuted/80 xl:text-base">{item.location}</p>
+                <p className="mt-4 text-sm text-textMuted xl:text-base">{item.summary}</p>
+                <ul className="mt-4 space-y-3 text-sm text-textMuted/90 xl:text-base">
                   {item.achievements.map((achievement) => (
                     <li key={achievement} className="flex gap-3">
                       <span className="mt-2 h-2 w-2 rounded-full bg-accent" aria-hidden="true" />
@@ -49,20 +49,20 @@ export function Experience({
             ))}
           </ul>
           <Reveal delay={0.12}>
-            <aside className="sticky top-28 space-y-6 rounded-3xl border border-white/5 bg-surface/50 p-6 shadow-lg shadow-black/20">
+            <aside className="sticky top-28 space-y-6 rounded-3xl border border-white/5 bg-surface/50 p-6 shadow-lg shadow-black/20 xl:top-32 xl:p-8">
               <div className="flex items-center gap-3 text-textMuted">
                 <BriefcaseBusiness className="h-5 w-5 text-accent" aria-hidden="true" />
                 <p className="text-sm uppercase tracking-[0.2em]">Education</p>
               </div>
               <ul className="space-y-5">
                 {education.education.map((item) => (
-                  <li key={`${item.institution}-${item.credential}`}>
-                    <p className="text-sm font-semibold text-textPrimary">{item.institution}</p>
-                    <p className="text-sm text-textMuted/80">{item.credential}</p>
-                    <p className="text-xs uppercase text-textMuted/60">
+                  <li key={`${item.institution}-${item.credential}`} className="text-sm text-textMuted xl:text-base">
+                    <p className="text-sm font-semibold text-textPrimary xl:text-base">{item.institution}</p>
+                    <p className="text-sm text-textMuted/80 xl:text-base">{item.credential}</p>
+                    <p className="text-xs uppercase text-textMuted/60 xl:text-sm">
                       {item.start} — {item.end}
                     </p>
-                    <p className="mt-2 text-sm text-textMuted">{item.details}</p>
+                    <p className="mt-2 text-sm text-textMuted xl:text-base">{item.details}</p>
                   </li>
                 ))}
               </ul>
@@ -73,5 +73,3 @@ export function Experience({
     </section>
   );
 }
-
-
